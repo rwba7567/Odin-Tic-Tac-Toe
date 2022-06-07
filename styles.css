@@ -1,0 +1,32 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#header{
+    background-color: blue;
+
+    flex: 0 0 64px;
+}
+
+#content{
+    background-color: yellow;
+
+    flex: 1 0 auto;
+}
+
+/* misc. */
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.centered{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
