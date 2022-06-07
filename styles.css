@@ -36,6 +36,28 @@ td{
     border: var(--SmallSpacing) solid black;
 }
 
+#startMenu{
+    height:100%;
+    width:100%;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    display: inline-flex;
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#startMenu > div{
+    background-color: yellow;
+
+    width:50vw;
+    height: 50vh;
+}
+
 /* misc. */
 .flexCol{
     display: flex;
@@ -44,7 +66,6 @@ td{
 
 .centered{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
