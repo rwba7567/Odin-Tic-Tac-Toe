@@ -79,3 +79,36 @@ td{
     --Large1Spacing: 40px;
     --Large2Spacing: 48px;
 }
+
+.smallBtn{
+    box-sizing: border-box;
+    min-width: 96px;
+    height: 32px;
+    padding: 4px 8px;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.mediumBtn{
+    box-sizing: border-box;
+    min-width: 128px;
+    height: 40px;
+    padding: 8px 12px;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.largeBtn{
+    box-sizing: border-box;
+    min-width: 128px;
+    height: 48px;
+    padding: 12px 16px;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 24px;
+}
