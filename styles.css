@@ -1,4 +1,5 @@
 body{
+    min-width: 256px;
     min-height: 100vh;
     margin: 0;
 
@@ -18,6 +19,23 @@ body{
     flex: 1 0 auto;
 }
 
+table{
+    background-color: white;
+
+    box-sizing: content-box;
+    width: 75vh;
+    height: 75vh;
+    border: var(--SmallSpacing) solid black;
+    border-collapse: collapse;
+    margin: var(--Medium1Spacing);
+}
+
+td{
+    width: 33.3%;
+    padding-top: 33.3%;
+    border: var(--SmallSpacing) solid black;
+}
+
 /* misc. */
 .flexCol{
     display: flex;
@@ -29,4 +47,14 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+
+:root {
+    --SmallSpacing: 8px;
+    --Medium1Spacing: 16px;
+    --Medium2Spacing: 24px;
+    --Medium3Spacing: 32px;
+    --Large1Spacing: 40px;
+    --Large2Spacing: 48px;
 }
