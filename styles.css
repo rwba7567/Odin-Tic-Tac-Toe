@@ -16,6 +16,7 @@ body{
 #content{
     background-color: yellow;
 
+    flex-direction: row;
     flex: 1 0 auto;
 }
 
@@ -34,6 +35,14 @@ td{
     width: 33.3%;
     padding-top: 33.3%;
     border: var(--SmallSpacing) solid black;
+}
+
+#textOutput{
+    background-color: red;
+
+    height: 192px;
+    width: 384px;
+
 }
 
 #startMenu{
@@ -62,6 +71,11 @@ td{
 .flexCol{
     display: flex;
     flex-direction: column;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
 }
 
 .centered{
